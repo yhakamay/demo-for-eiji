@@ -11,6 +11,7 @@ import {
   Tabs,
   Text,
 } from "@chakra-ui/react";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -62,6 +63,7 @@ export default function Home() {
           </TabPanel>
         </TabPanels>
       </Tabs>
+      <Image src={"/next.svg"} alt={"next.js"} width={200} height={200} />
     </Container>
   );
 }
